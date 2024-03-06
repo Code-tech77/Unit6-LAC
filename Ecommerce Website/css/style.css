@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+:root {
+    --font-main:'Lexend', sans-serif;
+    --font-navigation:'Noto Sans', sans-serif;
+    --font-translatior:'Roboto', sans-serif;
+    --font-Images:'Kaushan Script', sans-serif;
+    --color-main: #f2f0e6;
+    --color-main2: #faebd7;
+    --color-background: #D3D3D3;
+    --color-hover: #A9A9A9;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #faebd7;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lexend', cursive;
+}
+
+span li a{
+  background-color: #45a049;
+} 
+
+li a:hover{
+  background-color: #A9A9A9;
+  color: black;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+.Login {
+float: right;
+height: auto;
+width: auto;
+color: white;
+padding: 5px;
+font-family: 'Lexend', cursive;
+}
+.Social .Media {
+float: left;
+height: auto;
+width: auto;
+font-family: 'Lexend', cursive;
+color: #fff;
+}
+img .icon{
+position: absolute;
+top: 80px;
+bottom: 33px;
+right: 0;
+width: 200px;
+height: 100px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+font-family: 'Noto Sans', cursive;
+}
+
+/* Set a style for all buttons */
+button {
+background-color: rgb(110, 110, 110);
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+font-family: 'Noto Sans', cursive;
+float: right;
+
+}
+button1:hover {
+background-color: #f44336;
+color: #000;
+transition: 0.5s ease;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* sgin up */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 150%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+padding-top: 60px;
+}
+
+/* login */
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 50%; /* Could be more or less, depending on screen size */
+height: 47%;
+
+}
+
+/* The Close Button (x) */
+.close {
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: red;
+cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+-webkit-animation: animatezoom 0.6s;
+animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+from {-webkit-transform: scale(0)} 
+to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+from {transform: scale(0)} 
+to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+ display: block;
+ float: none;
+}
+.cancelbtn {
+ width: 100%;
+}
+}
+body {font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: horizontal;
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.container {
+border-radius: 5px;
+background-color: #ffffff;
+padding: 20px;
+}
+h2{
+font-size: 40px;
+right: 1px;
+top: -33px;
+position: relative;
+font-family: 'DM Serif Display', serif;
+}
+.Home-img img{
+border-radius: 0px;
+}
+.translate {
+display: flex;
+padding: 0px;
+top: 4px;
+margin: 0px;
+float: right;
+border-radius: 80px;
+color: black;
+}
+label {
+margin-right: 2px;
+font-weight: none;
+font-family: var(--font-translatior);
+font-size: 20px;
+}
+/*footer*/
+.footer{
+	background-color: white;
+    color: black;
+    font-size: 23px;
+    margin: -1px ;
+    padding: 2px 0px;
+    position: absolute;
+    width: 99.4%;
+    font-style: italic ;
+    font-family: 'Lexend', serif;
+    bottom: -00px;
+    text-align: center; 
+    height: 145px;
+    display: fix;
+}
+.footer h4 {
+  text-align: left;
+}
+/*Shop label*/
+.categories {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: 2rem;
+}
+.category {
+  text-align: center;
+  padding: 3rem;
+  border: 1px solid var(--colo-white-2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.category:hover {
+  background-color: var(--colo-primary);
+}
+.category_icon {
+  width: 3.5rem;
+  height: auto;
+}
+.section_title{
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 24%;
+  font-family: 'Roboto';
+  align-items: center;
+  text-align: center;
+}
+/*Customer support*/
+.support2{
+  color: white;
+  font-family: 'Lexend';
+  background-color: lightseagreen;
+  padding: 6rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 2%;
+  margin-top: 100px;
+  align-items: left;
+  height: 10px;
+}
+/*About Us*/
+.About{
+  color: black;
+  font-family: 'Kaushan Script';
+  background-color: rgb(231, 179, 81);
+  padding: 6.4%;
+  border-radius: 2%;
+  align-items: center;
+}
+/*Contact Us*/
+.Contact{
+  color: black;
+  font-family: 'Kaushan Script';
+  background-color: rgb(240, 240, 37);
+  padding: 6.6%;
+  border-radius: 2%;
+  align-items: right;
+}
+/*Home page Contain elemnts*/
+.category_name{
+  font-family: 'Kaushan Script';
+  font-size: 17.80px;
+}
+.category_icon{
+  width: 180px;
+  height: 165px;
+}
+.View_All{
+  background-color: orange;
+  font-family: 'Lexend';
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*60% keyboards*/
+.View_All2{
+  background-color: orange;
+  font-family: 'Lexend';
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+a{
+  color: black;
+  text-decoration: none;
+}

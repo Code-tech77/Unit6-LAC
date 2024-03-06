@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend';
+}
+body{
+    background-color: #D3D3D3;
+}
+.hero{
+    background-color: #D3D3D3;
+    overflow: hidden;
+}
+.heading h1{
+    color: faebd7;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+.hero-content{
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+}
+.hero-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: black;
+}
+.hero-content p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: black;
+}
+.hero-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: px;
+}
+.Back{
+    padding: 0.6rem 1.3rem;
+    background-color: #f2f0e6;
+    border: 2px solid #423f3f;
+    font-size: 0.95rem;
+    color: black;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+  }
+  
+.Back:hover {
+    background-color: transparent;
+    background-color: #A9A9A9;
+    color: black;
+  }
+/*Logo*/
+.Banner{
+    border-radius: none;
+}

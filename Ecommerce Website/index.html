@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ecommerce Website</title>
+<link rel="stylesheet" href="./css/style.css">
+</body>
+</head>
+	
+<body bgcolor="#D3D3D3">
+	<!--logo-->
+<img src="image/logo.png" width="120px" height="120px">
+
+	<!--login in buttom-->
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login<br>
+	</button>
+	
+	<div id="id01" class="modal">
+	  
+	  <form class="modal-content animate" action="/action_page.php" method="post">
+		<div class="imgcontainer">
+		  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+	
+		<div class="container">
+      <h1>Login Your Account</h1>
+		  <label for="uname"><b>Username</b></label>
+		  <input type="text" placeholder="Enter Username" name="uname" required>
+	
+		  <label for="psw"><b>Password</b></label>
+		  <input type="password" placeholder="Enter Password" name="psw" required>
+			
+		  <button type="submit">Login</button>
+		  <label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+		  </label>
+		</div>
+	
+		<div class="container" style="background-color:#f1f1f1">
+		  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		  <span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+	  </form>
+	</div>
+
+ <!--Sgin Up-->
+
+<button onclick="document.getElementById('id012').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id012" class="modal">
+  <span onclick="document.getElementById('id012').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up For An Account</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Reenter Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!--Translate Button-->
+
+<div class="translate">
+  <label for="lang-select">Select language:</label>
+  <img src="./image/translate png.png" width="70" height="50">
+  <select id="lang-select">
+    <option value="en">English (UK)</option>
+    <option value="fr">French </option>
+    <option value="es">Spanish</option>
+    <option value="es">Arabic</option>
+    <option value="es">Chinese</option>
+    <option value="es">Bengali</option>
+    <option value="es">Japanese</option>
+    <option value="es">Korean</option>
+    <option value="es">Russian</option>
+  </select>
+</div> 
+
+<!--Search bar-->
+  <form>
+    <input type="text" name="search" placeholder="Search Your Keyboard........">
+    </form>
+
+	<!--navigation section-->
+<ul>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="Ready.html">Ready-Made keyboards</a></li>
+<li><a href="Custom.html">Customise keyboards</a></li>
+<li><a href="BigKeyboard.html">75% Keyboards</a></li>
+<li><a href="keyboard.html">60% Keyboards</a></li>
+<li><a href="About.html">About Us</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<span><li><a href="Payment.html">Delivery<img src="./image/cart.png"width="20" height="20"></a></li></span>
+</ul>
+
+<section class="Home" id="Home"></section>
+<div class="Home-img"></div>
+	
+	  
+  <!--Home page content-->
+
+  <div class="section_header">
+    <button2><h3 class="section_title">Shop by Category - Home Page</h3></button2>
+  </div>
+  <!--60% Keyboard-->
+  <div class="categories">
+    <div class="category">
+      <img src="./image/keyboard.png" alt="keyboard" class="category_icon" />
+      <p class="category_name">60% Keyboards</p>
+      <a href="keyboard.html"<button5 class="View_All2">View All</button5></a> 
+    </div>
+
+    <!--Ready-Made Keyboards-->
+    <div class="category">
+      <img
+        src="./image/custom.png"
+        alt=""
+        class="category_icon" />
+      <p class="category_name">Ready-Made Keyboards</p>
+      <a href="Ready.html"<button5 class="View_All2">View All</button5></a>
+    </div>
+
+    <!--75% Keyboard-->
+    <div class="category">
+      <img src="./image/bigkeyboard.png" alt="" class="category_icon" />
+      <p class="category_name">75% Keyboard</p>
+      <a href="BigKeyboard.html"<button5 class="View_All2">View All</button5></a>
+    </div>
+
+    <!--Customise keyboards-->
+    <div class="category">
+      <img
+        src="./image/customer.png"
+        alt=""
+        class="category_icon" />
+      <p class="category_name">Customise keyboards</p>
+      <a href="Custom.html"<button5 class="View_All2">View All</button5></a>
+    </div>
+  </div>
+</div>
+</section>
+
+
+ <!--Customer Support-->   
+ 
+ <button3 class="support2" onclick="toggleForm()">Contact Support<img src="./image/customer-service-support.svg" width="100px" height="100px"</button>
+  </div>
+
+   <!--About Us--> 
+  <a href="About.html"<button3 class="About" onclick="toggleForm()">About Us <img src="./image/about us.png" width="100px" height="100px"</button></a>
+  </div>
+
+   <!--Contact US--> 
+  <a href="contact.html"<button3 class="Contact" onclick="toggleForm()">Contact Us <img src="./image/contact us.png" width="100px" height="100px"</button></a>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer">
+          <h4>Social Media Links : <img src="./image/Social media/702300.png" alt="" width="85" height="85"><img src="./image/Social media/tiktok.png" alt="" width="95" height="85"><img src="./image/Social media/Instagram_icon.png" alt="" width="85" height="85"></h4>
+ </footer>
+
+</div>
+</div>
+</html>
